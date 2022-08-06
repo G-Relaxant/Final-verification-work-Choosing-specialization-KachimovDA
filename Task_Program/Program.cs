@@ -10,4 +10,15 @@ for(int i = 0; i < stringArray.Length; i++)
     }
     bufer = string.Empty;
 }
-int[] indexesArray = new int[indexesCounter];
+//int[] indexesArray = new int[indexesCounter];
+string[] answerStringArray = new string[indexesCounter];
+int indexAnswerArray = 0;
+for(int i = 0; i < stringArray.Length; i++)
+{
+    bufer = stringArray[i];
+    if(bufer.Length <= 3)
+    {
+        answerStringArray[indexAnswerArray] = bufer;
+        indexAnswerArray++;
+    }
+}
