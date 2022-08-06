@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\дз\Final-verification-work-Choosing-specialization-KachimovDA\Task_Program\bin\Debug\net6.0\Task_Program.exe
+C:\Users\user\Desktop\дз\Final-verification-work-Choosing-specialization-KachimovDA\Task_Program\bin\Debug\net6.0\Task_Program.deps.json
+C:\Users\user\Desktop\дз\Final-verification-work-Choosing-specialization-KachimovDA\Task_Program\bin\Debug\net6.0\Task_Program.runtimeconfig.json
+C:\Users\user\Desktop\дз\Final-verification-work-Choosing-specialization-KachimovDA\Task_Program\bin\Debug\net6.0\Task_Program.dll
+C:\Users\user\Desktop\дз\Final-verification-work-Choosing-specialization-KachimovDA\Task_Program\bin\Debug\net6.0\Task_Program.pdb
+C:\Users\user\Desktop\дз\Final-verification-work-Choosing-specialization-KachimovDA\Task_Program\obj\Debug\net6.0\Task_Program.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\дз\Final-verification-work-Choosing-specialization-KachimovDA\Task_Program\obj\Debug\net6.0\Task_Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\дз\Final-verification-work-Choosing-specialization-KachimovDA\Task_Program\obj\Debug\net6.0\Task_Program.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\дз\Final-verification-work-Choosing-specialization-KachimovDA\Task_Program\obj\Debug\net6.0\Task_Program.AssemblyInfo.cs
+C:\Users\user\Desktop\дз\Final-verification-work-Choosing-specialization-KachimovDA\Task_Program\obj\Debug\net6.0\Task_Program.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\дз\Final-verification-work-Choosing-specialization-KachimovDA\Task_Program\obj\Debug\net6.0\Task_Program.dll
+C:\Users\user\Desktop\дз\Final-verification-work-Choosing-specialization-KachimovDA\Task_Program\obj\Debug\net6.0\refint\Task_Program.dll
+C:\Users\user\Desktop\дз\Final-verification-work-Choosing-specialization-KachimovDA\Task_Program\obj\Debug\net6.0\Task_Program.pdb
+C:\Users\user\Desktop\дз\Final-verification-work-Choosing-specialization-KachimovDA\Task_Program\obj\Debug\net6.0\Task_Program.genruntimeconfig.cache
+C:\Users\user\Desktop\дз\Final-verification-work-Choosing-specialization-KachimovDA\Task_Program\obj\Debug\net6.0\ref\Task_Program.dll
