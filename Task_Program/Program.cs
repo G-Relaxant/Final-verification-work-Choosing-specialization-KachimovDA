@@ -51,5 +51,12 @@ else
 
 void PrintAnswerArray(string[] a, string b)
 {
-    
+    for(int i = 0; i < a.Length; i++)
+    {
+        b = b + a[i];
+        if(i != a.Length)
+        {
+            b = b + ", ";
+        }
+    }
 }
