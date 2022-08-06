@@ -21,10 +21,8 @@ for(int i = 0; i < stringArray.Length; i++)
         indexAnswerArray++;
     }
 }
-string answerString = string.Empty;  // Аналогично string "output" из практикума
-PrintAnswerArray(answerStringArray, answerString);
-string input = string.Empty;
-PrintAnswerArray(stringArray, input);
+string answerString = PrintStringArray(answerStringArray);  // Аналогично string "output" из практикума
+string input = PrintStringArray(stringArray);
 Console.WriteLine("Если вы хотите распечатать ответ в консоли - нажмите 1");
 Console.WriteLine("Если вы хотите сохранить ответ в файле - нажмите 2");
 Console.WriteLine("Если вы хотите распечатать ответ в консоли и сохранить в файле - нажмите 3");
@@ -56,14 +54,16 @@ else
 }
 
 
-void PrintAnswerArray(string[] a, string b)
+string PrintStringArray(string[] a)
 {
+    string b = string.Empty;
     for(int i = 0; i < a.Length; i++)
     {
         b = b + a[i];
-        if(i != a.Length)
+        if(i != a.Length - 1)
         {
             b = b + ", ";
         }
     }
+    return b;
 }
