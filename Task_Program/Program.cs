@@ -10,7 +10,6 @@ for(int i = 0; i < stringArray.Length; i++)
     }
     bufer = string.Empty;
 }
-//int[] indexesArray = new int[indexesCounter];
 string[] answerStringArray = new string[indexesCounter];
 int indexAnswerArray = 0;
 for(int i = 0; i < stringArray.Length; i++)
@@ -21,4 +20,16 @@ for(int i = 0; i < stringArray.Length; i++)
         answerStringArray[indexAnswerArray] = bufer;
         indexAnswerArray++;
     }
+}
+Console.WriteLine("Если вы хотите распечатать ответ в консоли - нажмите 1, если вы хотите сохранить ответ в файле - нажмите 2, если вы хотите распечатать ответ в консоль и сохранить в файле - нажмите 3");
+int choice = Convert.ToInt32(Console.ReadLine());
+if(choice == 1)
+{
+    PrintAnswerArray(answerStringArray);
+}
+
+
+void PrintAnswerArray(string a)
+{
+    
 }
