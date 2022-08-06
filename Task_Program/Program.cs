@@ -21,25 +21,32 @@ for(int i = 0; i < stringArray.Length; i++)
         indexAnswerArray++;
     }
 }
-string answerString = string.Empty;
+string answerString = string.Empty;  // Аналогично string "output" из практикума
 PrintAnswerArray(answerStringArray, answerString);
-Console.WriteLine("Если вы хотите распечатать ответ в консоли - нажмите 1, если вы хотите сохранить ответ в файле - нажмите 2, если вы хотите распечатать ответ в консоль и сохранить в файле - нажмите 3");
+string input = string.Empty;
+PrintAnswerArray(stringArray, input);
+Console.WriteLine("Если вы хотите распечатать ответ в консоли - нажмите 1");
+Console.WriteLine("Если вы хотите сохранить ответ в файле - нажмите 2");
+Console.WriteLine("Если вы хотите распечатать ответ в консоли и сохранить в файле - нажмите 3");
 int choice = Convert.ToInt32(Console.ReadLine());
 if(choice == 1)
 {
-    
+    Console.WriteLine(answerString);
 }
 else
 {
     if(choice == 2)
     {
-
+        File.WriteAllText("input.txt", input);
+        File.WriteAllText("output.txt", answerString);
     }
     else
     {
         if(choice == 3)
         {
-
+            Console.WriteLine(answerString);
+            File.WriteAllText("input.txt", input);
+            File.WriteAllText("output.txt", answerString);
         }
         else
         {
